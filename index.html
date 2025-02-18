@@ -1,0 +1,121 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Главная страница
+{% endblock %}
+
+{% block body %}
+
+    <img class="back__img " src="{{ url_for('static', filename='img/back.jpg') }}" alt="back">
+
+    <img class="back2__img " src="{{ url_for('static', filename='img/back1.jpg') }}" alt="back1">
+
+
+
+<div>
+    <p class="text_i"><h2>«22 января 1942 года Московская область после 93-дневной оккупации была полностью освобождена от фашистских захватчиков. В этот день 83 года назад бойцы 19-й стрелковой дивизии 5-й армии под командованием генерала Николая Дронова освободили Уваровку — последний крупный населенный пункт Подмосковья, который удерживали немцы.»</h2>
+</div>
+
+<div class="row featurette">
+      <div class="col-md-6">
+        <p class="text">Начало Великой Отечественной войны стало для домодедовцев, как и для всей страны, тяжелейшим периодом. Лавина немецких войск двигалась на восток и приближалась к столице СССР. Одним из главных сражений этого года стала битва за Москву. Московская битва продолжалась 203 дня и ночи. Домодедовцы, как и весь народ, встали несокрушимой стеной и создавали линии обороны. Летом и осенью 1941 года  местными жителями сооружались бомбоубежища, в которых люди прятались ночами.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="godov__img" src="{{ url_for('static', filename='img/glav.jpg') }}" alt="glav">
+      </div>
+        </div>
+
+
+<div class="text">
+
+
+</div>
+
+<hr class="featurette-divider">
+
+<div class="mb-2">
+    <div class="col-md-15">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <h1 class="mb-0 text_im2">Ночной таран Виктора Талалихина</h1>
+          <div class="mb-1 text-body-secondary">06-07.08.1941</div>
+          <p class="card-text mb-auto text_im">7 июня 2014 года в Домодедовском районе из земли поисковиками были извлечены обломки самолёта, на котором 6 августа 1941 г. Герой Советского Союза Виктор Талалихин совершил ставший легендарным ночной таран в небе Подмосковья.</p>
+          <a href="{{ url_for('statya3') }}" class="icon-link gap-1 icon-link-hover stretched-link text_im3_1"><button type="submit" class="text_im3 px-3">Узнать больше</button>
+            <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+          </a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <img class="img" src="{{ url_for('static', filename='img/talalihin.jpg') }}" alt="talalihin">
+        </div>
+      </div>
+    </div>
+
+<div class="mb-2">
+    <div class="col-md-15">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <h1 class="mb-0 text_im2">Первая стратегическая победа</h1>
+          <div class="mb-1 text-body-secondary">27.01.1942</div>
+          <p class="card-text mb-auto text_im">В числе бойцов, освобождавших Московскую область от немецких оккупантов в начале Второй мировой войны, были и домодедовцы. 22 января мы отмечаем памятную дату – День освобождения Московской области от фашистских захватчиков.</p>
+          <a href="{{ url_for('statya1') }}" class="icon-link gap-1 icon-link-hover stretched-link text_im3_1"><button type="submit" class="text_im3 px-3">Узнать больше</button>
+            <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+          </a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <img class="img" src="{{ url_for('static', filename='img/dom1.jpg') }}" alt="dom1">
+        </div>
+      </div>
+    </div>
+
+<div class="mb-2">
+    <div class="col-md-15">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <h1 class="mb-0 text_im2">Единым трудовым фронтом</h1>
+          <p class="card-text mb-auto text_im">освобождение Подмосковья огромный вклад внесли предприятия и учреждения, жители посёлков, сёл и деревень домодедовского района. В то тяжёлое время они были единым трудовым фронтом. А главный лозунг «Всё для фронта! Всё для Победы!» стал для них руководством к действию.</p>
+          <a href="{{ url_for('statya2') }}" class="icon-link gap-1 icon-link-hover stretched-link text_im3_1"><button type="submit" class="text_im3 px-3">Узнать больше</button>
+            <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+          </a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <img class="img" src="{{ url_for('static', filename='img/zavod.jpg') }}" alt="zavod">
+        </div>
+      </div>
+    </div>
+
+<div class="mb-2">
+    <div class="col-md-15">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <h1 class="mb-0 text_im2">Сели за парты</h1>
+          <p class="card-text mb-auto text_im">Первого сентября 1938 года в рабочем поселке Домодедово на Константиновском шоссе (ныне улица Советская) в небольшом двухэтажном здании, которое теперь занимает ММУПК, открылась средняя школа №3. В июне 1941 года состоялся первый выпуск учащихся, получивших общее среднее образование.</p>
+          <a href="{{ url_for('statya4') }}" class="icon-link gap-1 icon-link-hover stretched-link text_im3_1"><button type="submit" class="text_im3 px-3">Узнать больше</button>
+            <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+          </a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <img class="img" src="{{ url_for('static', filename='img/hkola.jpg') }}" alt="hkola">
+        </div>
+      </div>
+    </div>
+
+<div class="mb-2">
+    <div class="col-md-15">
+      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <h1 class="mb-0 text_im2">Госпитали во время Великой Отечественной войны</h1>
+          <p class="card-text mb-auto text_im">Госпитали во время Велико Отечественной войны на Домодедовской земле. Домодедовская земля, как прифронтовая полоса, была определена местом оказания помощи раненым бойцам.</p>
+          <a href="{{ url_for('statya5') }}" class="icon-link gap-1 icon-link-hover stretched-link text_im3_1"><button type="submit" class="text_im3 px-3">Узнать больше</button>
+            <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+          </a>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <img class="img" src="{{ url_for('static', filename='img/medic.jpeg') }}" alt="medic">
+        </div>
+      </div>
+    </div>
+
+<hr class="featurette-divider">
+
+
+{% endblock %}

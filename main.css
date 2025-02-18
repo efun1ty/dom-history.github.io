@@ -1,0 +1,335 @@
+/* HEADER */
+header {
+    position: sticky
+    top: 0;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 1000;
+    background: #fff;
+    -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
+          box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
+}
+
+.text_base ul a {
+    color: #162938;
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+}
+
+.text_base ul a:hover {
+    text-decoration: underline ;
+    color: #162938;
+}
+
+.header__img {
+    height:70px;
+    wight 70px;
+    border-radius: 7px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
+}
+
+.img {
+    height:550px;
+    wight 550px;
+}
+
+
+.bogatirev__img {
+    height:750px;
+    wight:750px;
+    border-radius: 20px;
+    margin: 0px 29px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
+}
+
+.gushin__img {
+    height:750px;
+    wight:750px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
+}
+
+.ijutov__img {
+    height:750px;
+    wight:750px;
+    border-radius: 20px;
+    margin: 0px 22px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
+}
+
+.koceba__img {
+    height:770px;
+    wight:770px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
+}
+
+.kyrijov__img {
+    height:750px;
+    wight:750px;
+    border-radius: 20px;
+    margin: 0px -9px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
+}
+
+.maksimov__img {
+    height:850px;
+    wight:850px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
+}
+
+.presnov__img {
+    height:750px;
+    wight:750px;
+    border-radius: 20px;
+    margin: 0px 25px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
+}
+
+.rihlik__img {
+    height:850px;
+    wight:850px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
+}
+
+.sidorov__img {
+    height:750px;
+    wight:750px;
+    border-radius: 20px;
+    margin: 0px 34px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
+}
+
+.sisoev__img {
+    height:400px;
+    wight:400px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
+}
+
+.pozdniak__img {
+    height:390px;
+    wight:390px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
+}
+
+.belov__img {
+    height:400px;
+    wight:400px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
+}
+
+.imgt__img {
+    margin: 0px 245px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
+    border-radius: 20px;
+}
+
+.imgt2__img {
+    margin: 0px 190px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
+    border-radius: 20px;
+}
+
+.text {
+    font-size:24px;
+    font-weight: 400;
+}
+
+.text_hero {
+    font-size:35px;
+    font-weight: 1000;
+}
+
+.hero_text {
+    text-align: center;
+    font-size:50px;
+    margin: -600x 0px;
+}
+
+.index_text {
+    text-align: center;
+    font-size:50px;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, .4);
+    border-radius: 15px;
+    height: 63px;
+}
+
+.links_text {
+    text-align: center;
+    font-size:50px;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, .4);
+    border-radius: 15px;
+    height: 63px;
+}
+
+.zagolovok_text {
+    text-align: center;
+}
+
+.statya1photo1__img {
+    border-radius: 10px;
+    height:424px;
+}
+
+.godov__img {
+    height:419px;
+    wight:419px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
+    border-radius: 20px;
+    margin: 0px 7px;
+}
+
+.base_text1 {
+    font-size:24px;
+    font-weight: 500;
+    margin: -6px 5px;
+}
+
+.base_text {
+    font-size:20px;
+    font-weight: 600;
+}
+
+.pamatnik__img {
+    height: 550px;
+    wight: 550px;
+}
+
+.text_mem {
+    margin: 0px 0px;
+    font-size:24px;
+}
+
+.mem2__img {
+    height: 370px;
+    wight: 370px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
+}
+
+.mem3__img {
+    height: 490px;
+    wight: 490px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
+}
+
+.mem4__img {
+    height: 800px;
+    wight: 800px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
+}
+
+.text_pravo {
+    text-align: right;
+    font-size: 15px;
+}
+
+.text_levo {
+    text-align: left;
+    font-size: 15px;
+}
+
+.back__img {
+    margin: -400px -600px;
+    position: sticky;
+    top: 0;
+    height: 1000px;
+    wight: 0px;
+    display: flex;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
+}
+
+.back2__img {
+    margin: -770px 1343px;
+    position: sticky;
+    top: 0;
+    height: 1015px;
+    wight: 0px;
+    display: flex;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
+}
+
+.kr_text {
+    color: red;
+}
+
+.text_base {
+    margin: 0px 70px;
+}
+
+.text_i {
+    font-size:24px;
+    font-weight: 500;
+    margin: -850px 0px;
+}
+
+.text_h {
+    margin: -150px 0px;
+}
+
+.text_im {
+    font-size: 30px;
+}
+
+.text_im2 {
+    font-size: 50px;
+}
+
+.text_im3 {
+    width: 25%;
+    height: 45px;
+    background: #DCDCDC;
+    border: none
+    outline: none;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.text_im3_1 {
+    text-decoration: none;
+}
+
+.text_tal {
+    margin: 0px 255px;
+}
+
+.text_tal2 {
+    margin: 0px 195px;
+}
+
+.zavod__img {
+    height: 610px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
+}
+
+.class1__img {
+    height: 786px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
+    border-radius: 20px;
+}
+
+.medic__img {
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
+}
+
+.img_base1 {
+    margin: -70px 1150px;
+    top: 0;
+    height: 70px;
+    wight: 70px;
+    display: flex;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .3);
+}
+
+.text_i2 {
+    color: red;
+
+}
